@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		98315E2E237B274F00D2D575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98315E2D237B274F00D2D575 /* AppDelegate.swift */; };
-		98315E30237B274F00D2D575 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98315E2F237B274F00D2D575 /* ViewController.swift */; };
 		98315E33237B274F00D2D575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98315E31237B274F00D2D575 /* Main.storyboard */; };
 		98315E35237B275100D2D575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98315E34237B275100D2D575 /* Assets.xcassets */; };
 		98315E38237B275100D2D575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98315E36237B275100D2D575 /* LaunchScreen.storyboard */; };
 		98315E43237B275200D2D575 /* PickADriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98315E42237B275200D2D575 /* PickADriverTests.swift */; };
 		98315E4E237B275200D2D575 /* PickADriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98315E4D237B275200D2D575 /* PickADriverUITests.swift */; };
+		98315E5C237B278700D2D575 /* NamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98315E5B237B278700D2D575 /* NamesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		98315E2A237B274F00D2D575 /* PickADriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickADriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98315E2D237B274F00D2D575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98315E2F237B274F00D2D575 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98315E32237B274F00D2D575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98315E34237B275100D2D575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98315E37237B275100D2D575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		98315E49237B275200D2D575 /* PickADriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickADriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98315E4D237B275200D2D575 /* PickADriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickADriverUITests.swift; sourceTree = "<group>"; };
 		98315E4F237B275200D2D575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98315E5B237B278700D2D575 /* NamesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				98315E2D237B274F00D2D575 /* AppDelegate.swift */,
-				98315E2F237B274F00D2D575 /* ViewController.swift */,
+				98315E5B237B278700D2D575 /* NamesTableViewController.swift */,
 				98315E31237B274F00D2D575 /* Main.storyboard */,
 				98315E34237B275100D2D575 /* Assets.xcassets */,
 				98315E36237B275100D2D575 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98315E30237B274F00D2D575 /* ViewController.swift in Sources */,
+				98315E5C237B278700D2D575 /* NamesTableViewController.swift in Sources */,
 				98315E2E237B274F00D2D575 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3J7Y4W46W;
 				INFOPLIST_FILE = PickADriver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3J7Y4W46W;
 				INFOPLIST_FILE = PickADriver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
